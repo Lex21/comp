@@ -5,13 +5,13 @@ Compatiblity addon for 11th MEU addons and MAS Weapons M4
 
 ## Changes
 
-* Adds IR laser/Flashlight switch functionality for MAS Weapons M4 attachments
+* Adds IR laser/Flashlight switch functionality for MAS Weapons M4 attachments using MRT Accesory functions
 
 ## Requirements
 
 List of addons required to use this component.
 
-- 11thmeu/addons/attachments (https://github.com/11thmeu/addons)
+- ASDG Joint Rails (http://www.armaholic.com/page.php?id=23242)
 - NATO SF and Russian Spetsnaz Weapons (mas_us_rifle) (http://www.armaholic.com/page.php?id=21912)
 
 ## Maintainers

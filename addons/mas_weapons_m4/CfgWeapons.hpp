@@ -1,11 +1,15 @@
 class CfgWeapons {
     class acc_pointer_IR;
     class acc_mas_pointer_IR: acc_pointer_IR {
-        MEU_PointerSwitch = "acc_mas_pointer_IR_FlashLight";
+        MRT_SwitchItemNextClass = "acc_mas_pointer_IR_FlashLight";
+        MRT_SwitchItemPrevClass = "acc_mas_pointer_IR_FlashLight";
+        MRT_SwitchItemHintText = "Pointer - IR Laser";
     };
     class acc_mas_pointer_IR_FlashLight: acc_mas_pointer_IR {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
-        MEU_PointerSwitch = "acc_mas_pointer_IR";
+        MRT_SwitchItemNextClass = "acc_mas_pointer_IR";
+        MRT_SwitchItemPrevClass = "acc_mas_pointer_IR";
+        MRT_SwitchItemHintText = "Pointer - Flashlight";
         MEU_HideItem = 1;
         class ItemInfo: InventoryFlashLightItem_Base_F {
             mass = 8;
