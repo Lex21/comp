@@ -5,13 +5,13 @@ Compatiblity addon for 11th MEU addons and RHARD MK18
 
 ## Changes
 
-* Adds IR laser/Flashlight switch functionality for RHARD MK18 attachments
+* Adds IR laser/Flashlight switch functionality for RHARD MK18 attachments using MRT Accesory functions
 
 ## Requirements
 
 List of addons required to use this component.
 
-- 11thmeu/addons/attachments (https://github.com/11thmeu/addons)
+- ASDG Joint Rails (http://www.armaholic.com/page.php?id=23242)
 - Mk18 Mod 1 (http://www.armaholic.com/page.php?id=21096)
 
 ## Maintainers

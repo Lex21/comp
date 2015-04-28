@@ -5,13 +5,13 @@ Compatiblity addon for 11th MEU addons and RH acc
 
 ## Changes
 
-* Adds IR laser/Flashlight switch functionality for RH attachments
+* Adds IR laser/Flashlight switch functionality for RH attachments using MRT Accesory functions
 
 ## Requirements
 
 List of addons required to use this component.
 
-- 11thmeu/addons/attachments (https://github.com/11thmeu/addons)
+- ASDG Joint Rails (http://www.armaholic.com/page.php?id=23242)
 - RH Acc pack (http://www.armaholic.com/page.php?id=28057)
 
 ## Maintainers
