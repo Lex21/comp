@@ -5,7 +5,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"meu_attachments", "FHQ_Accessories"};
+        requiredAddons[] = {"FHQ_Accessories"};
         author[] = {"11thMEU Dev Team"};
         authorUrl = "http://11thmeu.es";
         versionDesc = "11thMEU Addons";
