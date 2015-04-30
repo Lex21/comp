@@ -4,12 +4,19 @@ class CfgWeapons {
         MRT_SwitchItemNextClass = "acc_mas_pointer_IR_FlashLight";
         MRT_SwitchItemPrevClass = "acc_mas_pointer_IR_FlashLight";
         MRT_SwitchItemHintText = "Pointer - IR Laser";
+
+        ACE_nextModeClass = "acc_mas_pointer_IR_FlashLight";
+        ACE_modeDescription = "Pointer - IR Laser";
     };
     class acc_mas_pointer_IR_FlashLight: acc_mas_pointer_IR {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         MRT_SwitchItemNextClass = "acc_mas_pointer_IR";
         MRT_SwitchItemPrevClass = "acc_mas_pointer_IR";
         MRT_SwitchItemHintText = "Pointer - Flashlight";
+
+        ACE_nextModeClass = "acc_mas_pointer_IR";
+        ACE_modeDescription = "Pointer - Flashlight";
+
         MEU_HideItem = 1;
         class ItemInfo: InventoryFlashLightItem_Base_F {
             mass = 8;
