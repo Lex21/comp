@@ -4,12 +4,19 @@ class CfgWeapons {
         MRT_SwitchItemNextClass = "RH_peq15_FlashLight";
         MRT_SwitchItemPrevClass = "RH_peq15_FlashLight";
         MRT_SwitchItemHintText = "AN/PEQ15 - IR Laser";
+
+        ACE_nextModeClass = "RH_peq15_FlashLight";
+        ACE_modeDescription = "AN/PEQ-15 - IR Laser";
     };
     class RH_peq15_FlashLight: RH_peq15 {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         MRT_SwitchItemNextClass = "RH_peq15";
         MRT_SwitchItemPrevClass = "RH_peq15";
         MRT_SwitchItemHintText = "AN/PEQ15 - Flashlight";
+
+        ACE_nextModeClass = "RH_peq15";
+        ACE_modeDescription = "AN/PEQ-15 - Flashlight";
+
         MEU_HideItem = 1;
         class ItemInfo: InventoryFlashLightItem_Base_F {
             mass = 8;
@@ -45,12 +52,19 @@ class CfgWeapons {
         MRT_SwitchItemNextClass = "RH_peq15_top_FlashLight";
         MRT_SwitchItemPrevClass = "RH_peq15_top_FlashLight";
         MRT_SwitchItemHintText = "AN/PEQ15 - IR Laser";
+
+        ACE_nextModeClass = "RH_peq15_top_FlashLight";
+        ACE_modeDescription = "AN/PEQ-15 - IR Laser";
     };
     class RH_peq15_top_FlashLight: RH_peq15_top {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         MRT_SwitchItemNextClass = "RH_peq15_top";
         MRT_SwitchItemPrevClass = "RH_peq15_top";
         MRT_SwitchItemHintText = "AN/PEQ15 - Flashlight";
+
+        ACE_nextModeClass = "RH_peq15_top";
+        ACE_modeDescription = "AN/PEQ-15 - Flashlight";
+
         MEU_HideItem = 1;
         class ItemInfo: InventoryFlashLightItem_Base_F {
             mass = 8;
@@ -86,12 +100,19 @@ class CfgWeapons {
         MRT_SwitchItemNextClass = "RH_peq15b_FlashLight";
         MRT_SwitchItemPrevClass = "RH_peq15b_FlashLight";
         MRT_SwitchItemHintText = "AN/PEQ15 - IR Laser";
+
+        ACE_nextModeClass = "RH_peq15b_FlashLight";
+        ACE_modeDescription = "AN/PEQ-15 - IR Laser";
     };
     class RH_peq15b_FlashLight: RH_peq15b {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         MRT_SwitchItemNextClass = "RH_peq15b";
         MRT_SwitchItemPrevClass = "RH_peq15b";
         MRT_SwitchItemHintText = "AN/PEQ15 - Flashlight";
+
+        ACE_nextModeClass = "RH_peq15b";
+        ACE_modeDescription = "AN/PEQ-15 - Flashlight";
+
         MEU_HideItem = 1;
         class ItemInfo: InventoryFlashLightItem_Base_F {
             mass = 8;
@@ -127,12 +148,20 @@ class CfgWeapons {
         MRT_SwitchItemNextClass = "RH_peq15b_top_FlashLight";
         MRT_SwitchItemPrevClass = "RH_peq15b_top_FlashLight";
         MRT_SwitchItemHintText = "AN/PEQ15 - IR Laser";
+
+        ACE_nextModeClass = "RH_peq15b_top_FlashLight";
+        ACE_modeDescription = "AN/PEQ-15 - IR Laser";
+
     };
     class RH_peq15b_top_FlashLight: RH_peq15b_top {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         MRT_SwitchItemNextClass = "RH_peq15b_top";
         MRT_SwitchItemPrevClass = "RH_peq15b_top";
         MRT_SwitchItemHintText = "AN/PEQ15 - Flashlight";
+        
+        ACE_nextModeClass = "RH_peq15b_top";
+        ACE_modeDescription = "AN/PEQ-15 - Flashlight";
+
         MEU_HideItem = 1;
         class ItemInfo: InventoryFlashLightItem_Base_F {
             mass = 8;
@@ -167,13 +196,20 @@ class CfgWeapons {
     class RH_peq2: ItemCore {
         MRT_SwitchItemNextClass = "RH_peq2_FlashLight";
         MRT_SwitchItemPrevClass = "RH_peq2_FlashLight";
-        MRT_SwitchItemHintText = "AN/PEQ15 - IR Laser";
+        MRT_SwitchItemHintText = "AN/PEQ-2 - IR Laser";
+
+        ACE_nextModeClass = "RH_peq2_FlashLight";
+        ACE_modeDescription = "AN/PEQ-2 - IR Laser";
     };
     class RH_peq2_FlashLight: RH_peq2 {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         MRT_SwitchItemNextClass = "RH_peq2";
         MRT_SwitchItemPrevClass = "RH_peq2";
-        MRT_SwitchItemHintText = "AN/PEQ15 - Flashlight";
+        MRT_SwitchItemHintText = "AN/PEQ-2 - Flashlight";
+
+        ACE_nextModeClass = "RH_peq2";
+        ACE_modeDescription = "AN/PEQ-2 - Flashlight";
+
         MEU_HideItem = 1;
         class ItemInfo: InventoryFlashLightItem_Base_F {
             mass = 8;
@@ -209,12 +245,19 @@ class CfgWeapons {
         MRT_SwitchItemNextClass = "RH_peq2_top_FlashLight";
         MRT_SwitchItemPrevClass = "RH_peq2_top_FlashLight";
         MRT_SwitchItemHintText = "AN/PEQ15 - IR Laser";
+
+        ACE_nextModeClass = "RH_peq2_top_FlashLight";
+        ACE_modeDescription = "AN/PEQ-2 - IR Laser";
     };
     class RH_peq2_top_FlashLight: RH_peq2_top {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         MRT_SwitchItemNextClass = "RH_peq2_top";
         MRT_SwitchItemPrevClass = "RH_peq2_top";
         MRT_SwitchItemHintText = "AN/PEQ15 - Flashlight";
+
+        ACE_nextModeClass = "RH_peq2_top";
+        ACE_modeDescription = "AN/PEQ-2 - Flashlight";
+        
         MEU_HideItem = 1;
         class ItemInfo: InventoryFlashLightItem_Base_F {
             mass = 8;
