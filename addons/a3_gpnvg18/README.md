@@ -1,4 +1,4 @@
-meu_comp_13_gpnvg18
+meu_comp_A3_gpnvg18
 =================
 
 Compatiblity addon for 11th MEU addons and GPNVG-18 Panoramic Night Vision Goggles
