@@ -21,4 +21,14 @@ class asdg_FrontSideRail: asdg_SlotInfo {
     };
 };
 
+class asdg_MuzzleSlot;
+class asdg_MuzzleSlot_556: asdg_MuzzleSlot
+{
+    class compatibleItems
+    {
+        muzzle_MK18_L = 1;
+        muzzle_MK18D_L = 1;
+    };
+};
+
 #include "CfgWeapons.hpp"

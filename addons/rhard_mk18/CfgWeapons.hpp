@@ -1,4 +1,24 @@
 class CfgWeapons {
+    /*
+     * WEAPONS
+     */ 
+    class Rifle_Base_F: Rifle {
+        class WeaponSlotsInfo;
+    };
+
+    class RHARD_MK18_base: Rifle_Base_F {
+        magazines[] += {"MEU_STANAG4179"};
+        
+        ACE_barrelTwist = 7;
+        ACE_barrelLength = 10.3;
+
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            class MuzzleSlot: asdg_MuzzleSlot_556 {};        
+        };
+    };
+    /*
+     * ATTACHMENTS
+     */
     class ItemCore;
     class PEQ15_A3_Top: ItemCore {
         MRT_SwitchItemNextClass = "PEQ15_A3_Top_FlashLight";
