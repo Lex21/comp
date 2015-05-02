@@ -5,7 +5,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"meu_main", "RHARD_MK18_Mod1", "asdg_jointrails"};
+        requiredAddons[] = {"meu_main", "RHARD_MK18_Mod1", "asdg_jointrails_rhard_mk18"};
         author[] = {"11thMEU Dev Team"};
         authorUrl = "http://11thmeu.es";
         versionDesc = "11thMEU Addons";
@@ -30,5 +30,7 @@ class asdg_MuzzleSlot_556: asdg_MuzzleSlot
         muzzle_MK18D_L = 1;
     };
 };
+
+class asdg_OpticRail1913_long;
 
 #include "CfgWeapons.hpp"

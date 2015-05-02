@@ -1,21 +1,90 @@
 class CfgWeapons {
     /*
      * WEAPONS
-     */ 
-    class Rifle_Base_F: Rifle {
+     */
+
+    class Rifle;
+    class Rifle_Base_F: Rifle
+    {
         class WeaponSlotsInfo;
     };
-
-    class RHARD_MK18_base: Rifle_Base_F {
+    class RHARD_MK18_base_F: Rifle_Base_F
+    {
         magazines[] += {"MEU_STANAG4179"};
         
         ACE_barrelTwist = 7;
         ACE_barrelLength = 10.3;
 
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            class MuzzleSlot: asdg_MuzzleSlot_556 {};        
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {    
+            class asdg_Muzzle_M4: asdg_MuzzleSlot_556 {};
+            class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
+            class asdg_FrontSideRail_M4: asdg_FrontSideRail
+            {
+                class compatibleItems: compatibleItems
+                {
+                    PEQ15_A3_Top = 1;
+                    PEQ15_A3_Top_FlashLight = 1;
+                    PEQ15_A3_Top_RedLaser = 1;
+                    peq15_top = 1;
+                    peq15_top_FlashLight = 1;
+                    peq15_top_RedLaser = 1;
+                };
+            };
         };
     };
+    class RHARD_MK18_F: RHARD_MK18_base_F
+    {
+        magazines[] += {"MEU_STANAG4179"};
+
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class CowsSlot {};
+            class PointerSlot {};
+            class MuzzleSlot {};
+        };
+    };
+    class RHARD_M4DDR_F: RHARD_MK18_F
+    {
+        magazines[] += {"MEU_STANAG4179"};
+
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class asdg_Muzzle_M4: asdg_MuzzleSlot_556 {};
+            class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
+        };
+    };
+    class RHARD_M4DDRD_F: RHARD_MK18_F
+    {
+        magazines[] += {"MEU_STANAG4179"};
+
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class asdg_Muzzle_M4: asdg_MuzzleSlot_556 {};
+            class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
+        };
+    };
+    class RHARD_M4DDRP_F: RHARD_MK18_F
+    {
+        magazines[] += {"MEU_STANAG4179"};
+
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class asdg_Muzzle_M4: asdg_MuzzleSlot_556 {};
+            class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
+        };
+    };
+    class RHARD_M4DDRPD_F: RHARD_MK18_F
+    {
+        magazines[] += {"MEU_STANAG4179"};
+        
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class asdg_Muzzle_M4: asdg_MuzzleSlot_556 {};
+            class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
+        };
+    };
+
     /*
      * ATTACHMENTS
      */
@@ -28,6 +97,7 @@ class CfgWeapons {
         ACE_nextModeClass = "peq15_top_FlashLight";
         ACE_modeDescription = "AN/PEQ-15 -  IR Laser";
 
+        class InventoryFlashLightItem_Base_F;
     };
     class PEQ15_A3_Top_FlashLight: PEQ15_A3_Top {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
@@ -120,6 +190,8 @@ class CfgWeapons {
 
         ACE_nextModeClass = "peq15_top_FlashLight";
         ACE_modeDescription = "AN/PEQ-15 -  IR Laser";
+
+        class InventoryFlashLightItem_Base_F;
 
     };
     class peq15_top_FlashLight: peq15_top {
