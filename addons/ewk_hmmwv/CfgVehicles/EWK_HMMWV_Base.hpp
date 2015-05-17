@@ -80,24 +80,7 @@ class EWK_HMMWV_Base: Car_F {
     engineBrakeCoef = 0.8;
 
     // Sound
-    #ifdef VENDOR_MOD_RHS
-        attenuationEffectType = "RHS_CarAttenuation";
-        class Sounds: Sounds
-        {
-            class RainIn
-            {
-                sound[] = {"rhsusf\addons\rhsusf_sounds\misc\rain.wss","db+3",1};
-                frequency = 1;
-                volume = "rain*(1-camPos)";
-            };
-            class RainExt
-            {
-                sound[] = {"rhsusf\addons\rhsusf_sounds\misc\rain.wss","db+3",1};
-                frequency = 1;
-                volume = "rain*camPos";
-            };
-        };
-    #endif
+    attenuationEffectType = "RHS_CarAttenuation";
 
     // Cargo
     class TransportMagazines{};
