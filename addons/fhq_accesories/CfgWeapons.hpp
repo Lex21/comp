@@ -1,5 +1,6 @@
 class CfgWeapons {
     class ItemCore;
+    class InventoryFlashLightItem_Base_F;
     class FHQ_acc_ANPEQ15: ItemCore {
         MRT_SwitchItemNextClass = "FHQ_acc_ANPEQ15_FlashLight";
         MRT_SwitchItemPrevClass = "FHQ_acc_ANPEQ15_RedLaser";
