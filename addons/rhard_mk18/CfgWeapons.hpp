@@ -3,20 +3,18 @@ class CfgWeapons {
      * WEAPONS
      */
 
-    class Rifle;
-    class Rifle_Base_F: Rifle
-    {
+    class Rifle_Base_F;
+    class RHARD_MK18_base: Rifle_Base_F {
         class WeaponSlotsInfo;
     };
-    class RHARD_MK18_base_F: Rifle_Base_F
-    {
+
+    class RHARD_MK18_base_F: RHARD_MK18_base {
         magazines[] += {"MEU_STANAG4179"};
         
         ACE_barrelTwist = 7;
         ACE_barrelLength = 10.3;
 
-        class WeaponSlotsInfo: WeaponSlotsInfo
-        {    
+        class WeaponSlotsInfo: WeaponSlotsInfo {    
             class asdg_Muzzle_M4: asdg_MuzzleSlot_556 {};
             class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
             class asdg_FrontSideRail_M4: asdg_FrontSideRail
@@ -33,8 +31,7 @@ class CfgWeapons {
             };
         };
     };
-    class RHARD_MK18_F: RHARD_MK18_base_F
-    {
+    class RHARD_MK18_F: RHARD_MK18_base_F {
         magazines[] += {"MEU_STANAG4179"};
 
         class WeaponSlotsInfo: WeaponSlotsInfo
@@ -44,7 +41,11 @@ class CfgWeapons {
             class MuzzleSlot {};
         };
     };
-    class RHARD_M4DDR_F: RHARD_MK18_F
+
+    class RHARD_M4_base_F: RHARD_MK18_base_F {
+        class WeaponSlotsInfo;
+    };
+    class RHARD_M4DDR_F: RHARD_M4_base_F
     {
         magazines[] += {"MEU_STANAG4179"};
 
@@ -54,7 +55,7 @@ class CfgWeapons {
             class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
         };
     };
-    class RHARD_M4DDRD_F: RHARD_MK18_F
+    class RHARD_M4DDRD_F: RHARD_M4_base_F
     {
         magazines[] += {"MEU_STANAG4179"};
 
@@ -64,7 +65,7 @@ class CfgWeapons {
             class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
         };
     };
-    class RHARD_M4DDRP_F: RHARD_MK18_F
+    class RHARD_M4DDRP_F: RHARD_M4_base_F
     {
         magazines[] += {"MEU_STANAG4179"};
 
@@ -74,7 +75,7 @@ class CfgWeapons {
             class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
         };
     };
-    class RHARD_M4DDRPD_F: RHARD_MK18_F
+    class RHARD_M4DDRPD_F: RHARD_M4_base_F
     {
         magazines[] += {"MEU_STANAG4179"};
         
@@ -88,8 +89,8 @@ class CfgWeapons {
     /*
      * ATTACHMENTS
      */
-    class ItemCore;
-    class PEQ15_A3_Top: ItemCore {
+    class acc_pointer_IR;
+    class PEQ15_A3_Top: acc_pointer_IR {
         MRT_SwitchItemNextClass = "PEQ15_A3_Top_FlashLight";
         MRT_SwitchItemPrevClass = "PEQ15_A3_Top_RedLaser";
         MRT_SwitchItemHintText = "AN/PEQ15 - IR Laser";
@@ -182,7 +183,7 @@ class CfgWeapons {
             };
         };
     };
-
+    class ItemCore;
     class peq15_top: ItemCore {
         MRT_SwitchItemNextClass = "peq15_top_FlashLight";
         MRT_SwitchItemPrevClass = "peq15_top_Redlaser";
