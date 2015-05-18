@@ -16,11 +16,9 @@ class CfgWeapons {
 
         class WeaponSlotsInfo: WeaponSlotsInfo {    
             class asdg_Muzzle_M4: asdg_MuzzleSlot_556 {};
-            class asdg_OpticRail_M4: asdg_OpticRail1913_long{};
-            class asdg_FrontSideRail_M4: asdg_FrontSideRail
-            {
-                class compatibleItems: compatibleItems
-                {
+            class asdg_OpticRail_M4: asdg_OpticRail1913_long {};
+            class asdg_FrontSideRail_M4: asdg_FrontSideRail {
+                class compatibleItems: compatibleItems {
                     PEQ15_A3_Top = 1;
                     PEQ15_A3_Top_FlashLight = 1;
                     PEQ15_A3_Top_RedLaser = 1;
@@ -34,8 +32,7 @@ class CfgWeapons {
     class RHARD_MK18_F: RHARD_MK18_base_F {
         magazines[] += {"MEU_STANAG4179"};
 
-        class WeaponSlotsInfo: WeaponSlotsInfo
-        {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
             class CowsSlot {};
             class PointerSlot {};
             class MuzzleSlot {};
@@ -43,6 +40,9 @@ class CfgWeapons {
     };
 
     class RHARD_M4_base_F: RHARD_MK18_base_F {
+        ACE_barrelTwist = 7;
+        ACE_barrelLength = 14.5;
+
         class WeaponSlotsInfo;
     };
     class RHARD_M4DDR_F: RHARD_M4_base_F
