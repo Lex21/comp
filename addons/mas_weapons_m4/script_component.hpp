@@ -1,5 +1,5 @@
 #define COMPONENT mas_weapons_m4
-#include "\z\meu\addons\main\script_mod.hpp"
+#include "\z\meu_comp\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_MAS_WEAPONS_M4
     #define DEBUG_MODE_FULL
