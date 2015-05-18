@@ -1,0 +1,98 @@
+class CfgWeapons {
+    class Rifle_Base_F;
+    class RH_ar10: Rifle_Base_F {
+
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 528;
+    };
+
+    class RH_m110: Rifle_Base_F {
+        //magazines[] = {MAGAZINES_762_LR};
+
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 508;
+    };
+
+    class RH_SR25EC: RH_m110 {
+        //magazines[] = {MAGAZINES_SR25};
+
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 510;
+    };
+
+    class RH_m4: Rifle_Base_F
+    {
+        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
+        
+        class M203: UGL_F
+        {
+            magazines[] += {MAGAZINE_LIST_M203_GL};
+        };
+        
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 368;
+    };
+
+    class RH_hb: Rifle_Base_F {
+        magazines[] += {MAGAZINE_LIST_STANAG300};
+
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 150;
+    };
+
+    class RH_sbr9: Rifle_Base_F {
+        magazines[] = {MAGAZINES_MP5};
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 150;
+    };
+
+    class RH_M4A1_ris;
+    class RH_M4sbr: RH_M4A1_ris {
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 150;
+    };
+
+    class RH_M16a1: RH_m4 {
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 528;
+    };
+
+    class RH_M16A2: RH_m4 {
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 528;
+    };
+
+    class RH_M4_ris: RH_m4 {};
+    class RH_M16A4: RH_M4_ris {
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 528;
+    };
+
+    class RH_M4A6: RH_M4A1_ris
+    {
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 406;
+    };
+
+    class RH_M16A6: RH_M16A4
+    {
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 406;
+    };
+
+    class RH_Mk12mod1: RH_M16A4
+    {
+        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
+
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 457.2;
+    };
+
+    class RH_M27IAR: RH_Mk12mod1
+    {
+        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
+        
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 420;
+    };
+};
