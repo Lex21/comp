@@ -1,5 +1,7 @@
 class CfgWeapons {
-    class Rifle_Base_F;
+    class Rifle_Base_F;    
+    class UGL_F;
+    
     class RH_ar10: Rifle_Base_F {
 
         ACE_barrelTwist = 304.8;
