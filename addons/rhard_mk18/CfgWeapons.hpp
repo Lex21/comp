@@ -33,9 +33,9 @@ class CfgWeapons {
     class RHARD_MK18_F: RHARD_MK18_base_F {
 
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            class CowsSlot {};
-            class PointerSlot {};
-            class MuzzleSlot {};
+            delete CowsSlot;
+            delete PointerSlot;
+            delete MuzzleSlot;
         };
     };
 
