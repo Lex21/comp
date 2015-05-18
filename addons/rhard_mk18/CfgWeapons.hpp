@@ -12,8 +12,8 @@ class CfgWeapons {
 
     class RHARD_MK18_base_F: RHARD_MK18_base {
         
-        ACE_barrelTwist = 7;
-        ACE_barrelLength = 10.3;
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 261;
 
         class WeaponSlotsInfo: WeaponSlotsInfo {    
             class asdg_Muzzle_M4: asdg_MuzzleSlot_556 {};
@@ -40,8 +40,8 @@ class CfgWeapons {
     };
 
     class RHARD_M4_base_F: RHARD_MK18_base_F {
-        ACE_barrelTwist = 7;
-        ACE_barrelLength = 14.5;
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 368;
 
         class WeaponSlotsInfo;
     };
