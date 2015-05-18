@@ -33,4 +33,3 @@ class asdg_MuzzleSlot_556: asdg_MuzzleSlot
 class asdg_OpticRail1913_long;
 
 #include "CfgWeapons.hpp"
-#include "CfgVehicles.hpp"
