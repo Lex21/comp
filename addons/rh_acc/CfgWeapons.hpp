@@ -415,7 +415,7 @@ class CfgWeapons {
         };
     };
 
-    class RH_peq2_top: ItemCore {
+    class RH_peq2_top: RH_peq2 {
         MRT_SwitchItemNextClass = "RH_peq2_top_FlashLight";
         MRT_SwitchItemPrevClass = "RH_peq2_top_FlashLight";
         MRT_SwitchItemHintText = "AN/PEQ15 - IR Laser";
