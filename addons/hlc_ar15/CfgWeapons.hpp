@@ -1,4 +1,5 @@
 class CfgWeapons {
+    class Rifle_Base_F;
     class hlc_ar15_base: Rifle_Base_F {
         magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
 
