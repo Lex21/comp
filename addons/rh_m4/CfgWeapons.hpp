@@ -3,20 +3,21 @@ class CfgWeapons {
     class UGL_F;
     
     class RH_ar10: Rifle_Base_F {
+        magazines[] = {"MEU_MK11", MAGAZINE_LIST_MK11};
 
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 528;
     };
 
     class RH_m110: Rifle_Base_F {
-        //magazines[] = {MAGAZINES_762_LR};
+        magazines[] = {"MEU_MK11", MAGAZINE_LIST_MK11};
 
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 508;
     };
 
     class RH_SR25EC: RH_m110 {
-        //magazines[] = {MAGAZINES_SR25};
+        magazines[] = {"MEU_MK11", MAGAZINE_LIST_MK11};
 
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 510;
@@ -43,7 +44,6 @@ class CfgWeapons {
     };
 
     class RH_sbr9: Rifle_Base_F {
-        magazines[] = {MAGAZINES_MP5};
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 150;
     };
