@@ -57,11 +57,19 @@ class CfgWeapons {
     class RH_M16a1: RH_m4 {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 528;
+
+        ACE_Overheating_Dispersion[] = {0, 0.001, 0.003, 0.006};
+        ACE_Overheating_SlowdownFactor[] = {1, 1, 1, 0.9};
+        ACE_Overheating_JamChance[] = {0, 0.0003, 0.0030, 0.0090};
     };
 
     class RH_M16A2: RH_m4 {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 528;
+
+        ACE_Overheating_Dispersion[] = {0, 0.001, 0.003, 0.006};
+        ACE_Overheating_SlowdownFactor[] = {1, 1, 1, 0.9};
+        ACE_Overheating_JamChance[] = {0, 0.0003, 0.0030, 0.0090};
     };
 
     class RH_M4_ris: RH_m4 {};
