@@ -4,6 +4,7 @@ class srifle_EBR_F;
 class srifle_LRR_F;
 class srifle_GM6_F;
 class LMG_Mk200_F;
+class UGL_F;
 class arifle_mas_hk416: arifle_MX_F {
     magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
 };
