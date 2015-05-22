@@ -1,7 +1,6 @@
 class CfgWeapons {
     class Rifle_Base_F;
     class hlc_ar15_base: Rifle_Base_F {
-        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
 
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 368;
@@ -12,63 +11,43 @@ class CfgWeapons {
     };
 
     class hlc_rifle_RU556: hlc_ar15_base {
-        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 228;
     };
     class hlc_rifle_RU5562: hlc_rifle_RU556 {
-        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 228;
     };
     class hlc_rifle_bcmjack: hlc_ar15_base {
-        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 368;
     };
     class hlc_rifle_Colt727: hlc_ar15_base {
-        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 368;
     };
     class hlc_rifle_SAMR: hlc_rifle_RU556 {
-        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 508;
     };
     class hlc_rifle_CQBR: hlc_rifle_RU556 {
-        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 261;
     };
 
     class hlc_rifle_M4: hlc_rifle_RU556 {
-        magazines[] += {"MEU_STANAG4179", MAGAZINE_LIST_STANAG4179_RIFLE};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 150;
     };
     class hlc_rifle_Bushmaster300: hlc_rifle_Colt727 {
-        magazines[] += {"MEU_300BO", MAGAZINE_LIST_STANAG300};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 406;
     };
     class hlc_rifle_vendimus: hlc_rifle_Bushmaster300 {
-        magazines[] += {"MEU_300BO", MAGAZINE_LIST_STANAG300};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 406;
     };
     class hlc_rifle_honeybase: hlc_rifle_RU556 {
-        magazines[] += {"MEU_300BO", MAGAZINE_LIST_STANAG300};
-
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 150;
     };

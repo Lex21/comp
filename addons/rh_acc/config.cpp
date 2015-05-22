@@ -18,8 +18,11 @@ class asdg_FrontSideRail: asdg_SlotInfo {
     class compatibleItems {
         RH_peq15_FlashLight = 1;
         RH_peq15_top_FlashLight = 1;
+        RH_peq15_top_RedLaser = 1;
         RH_peq15b_FlashLight = 1;
+        RH_peq15b_RedLaser = 1;
         RH_peq15b_top_FlashLight = 1;
+        RH_peq15b_top_RedLaser = 1;
         RH_peq2_FlashLight = 1;
         RH_peq2_top_FlashLight = 1;
     };
