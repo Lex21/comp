@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Edited with tabler - 2015-05-23 -->
+<Project name="MEU_COMP">
+  <Package name="mas_usa_mars">
+    <Key ID="STR_MEU_COMP_mas_usa_mars_TypeUSMC">
+      <English>US Marine Corps</English>
+      <Spanish>Cuerpo de Marines EEUU</Spanish>
+    </Key>
+  </Package>
+</Project>
