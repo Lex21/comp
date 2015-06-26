@@ -1,6 +1,6 @@
 class CfgMEUEquipment {
     class meu {
-        displayName "11th Marine Expeditionary Unit (REG)";
+        displayName = "11th Marine Expeditionary Unit (REG)";
 
         class Uniforms {
             class meu {
@@ -71,7 +71,7 @@ class CfgMEUEquipment {
             class meu {
                 displayName = "11th Marine Expeditionary Unit (REG)";
                 classes[] = {
-                    "meu_goggles_tacticalxt_tan",
+                    "meu_goggles_tacticalxt_tan"
                 };
             };
 
