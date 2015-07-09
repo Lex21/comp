@@ -7,6 +7,7 @@ class CfgVehicles {
                     class usmc {
                         name = "$STR_MEU_COMP_mas_usa_mars_TypeUSMC";
                         value = "usmc";
+                        default = 0;
                     };
                 };
             };
