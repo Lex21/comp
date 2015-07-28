@@ -11,7 +11,7 @@ class CfgMEUEquipment {
                     "meu_marpatw_frog_d",
                     "meu_marpatw_frog_u"
                 };
-            };            
+            };
         };
 
         class Vests {
@@ -32,7 +32,7 @@ class CfgMEUEquipment {
             class generic {
                 displayName = "$STR_MEU_Equipment_TypeGeneric";
                 common = 0;
-            };      
+            };
         };
 
         class Backpacks {
@@ -57,7 +57,9 @@ class CfgMEUEquipment {
                 displayName = "11th Marine Expeditionary Unit (REG)";
                 classes[] = {
                     "meu_marpatd_mich2000",
-                    "meu_marpatd_boonie_01"
+                    "meu_marpatd_boonie_01",
+                    "meu_marpatw_mich2000",
+                    "meu_marpatw_boonie_01"
                 };
             };
 
@@ -71,13 +73,13 @@ class CfgMEUEquipment {
             class meu {
                 displayName = "11th Marine Expeditionary Unit (REG)";
                 classes[] = {
-                    "meu_goggles_tacticalxt_tan"
+                    "meu_goggles_tacticalxt_tan",
+                    "G_Combat",
+                    "G_Lowprofile",
+                    "G_Tactical_Black",
+                    "G_Tactical_Clear",
+                    "G_Diving"
                 };
-            };
-
-            class generic {
-                displayName = "$STR_MEU_Equipment_TypeGeneric";
-                common = 0;
             };
         };
 
