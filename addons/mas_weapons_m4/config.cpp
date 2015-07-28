@@ -17,6 +17,7 @@ class asdg_SlotInfo;
 class asdg_FrontSideRail: asdg_SlotInfo {
     class compatibleItems {
         acc_mas_pointer_IR_FlashLight = 1;
+        acc_mas_pointer_IR_RedLaser = 1;
     };
 };
 

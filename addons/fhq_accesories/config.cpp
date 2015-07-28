@@ -17,7 +17,10 @@ class asdg_SlotInfo;
 class asdg_FrontSideRail: asdg_SlotInfo {
     class compatibleItems {
         FHQ_acc_ANPEQ15_FlashLight = 1;
+        FHQ_acc_ANPEQ15_RedLaser = 1;
         FHQ_acc_ANPEQ15_black_FlashLight = 1;
+        FHQ_acc_ANPEQ15_black_RedLaser = 1;
+
     };
 };
 
